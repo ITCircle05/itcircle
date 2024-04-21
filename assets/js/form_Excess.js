@@ -91,7 +91,7 @@ const projects = [
 ] 
 const testimonial = [
   {
-    img: 'bhavesh.JPG', name: 'Bhavesh Gharat', desc: 'Full stack web developer', content: `IT Circle has been instrumental in advancing my programming skills and career. The supportive community, valuable resources, and collaborative environment have provided me with the tools and inspiration to excel in the IT field.`,
+    img: 'bhavesh.jpg', name: 'Bhavesh Gharat', desc: 'Full stack web developer', content: `IT Circle has been instrumental in advancing my programming skills and career. The supportive community, valuable resources, and collaborative environment have provided me with the tools and inspiration to excel in the IT field.`,
   },
   {
     img: 'rohan.png', name: 'Rohan Rasalkar', desc: 'Programmer', content: `Working with IT Circle has been an incredible experience. Their expertise in web development and dedication to delivering high-quality solutions have helped our clients achieve their goals efficiently and effectively.`,
@@ -113,7 +113,7 @@ const members = [
       insta:"https://www.instagram.com/bhavesh.gharat.7",
       linkedin:"https://www.linkedin.com/in/bhavesh-gharat-27833a293"
     },
-    img: "bhavesh.JPG"
+    img: "bhavesh.jpg"
   }, 
   {
     name: "Rohan Rasalkar",
