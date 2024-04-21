@@ -213,7 +213,8 @@ function submitFormData(obj) {
     method: 'POST',
     credentials: 'include',
     headers: {
-      'credentials': 'include'
+      'credentials': 'include',
+      'Connection': 'keep-alive', // Forces HTTP/1.1
     },
     body: formData,
     mode: 'cors', // This is required for cross-origin requests
