@@ -215,7 +215,9 @@ function submitFormData(obj) {
     headers: {
       'credentials': 'include'
     },
-    body: formData
+    body: formData,
+    mode: 'cors', // This is required for cross-origin requests
+    keepalive: true // This helps with connection reuse for HTTP/1.1
   })
     .then(response => {
       return response.json();
