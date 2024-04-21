@@ -213,13 +213,13 @@ function submitFormData(obj) {
     method: 'POST',
     credentials: 'include',
     headers: {
-      'credentials': 'include',
-      'Connection': 'keep-alive', // Forces HTTP/1.1
+        'Content-Type': 'application/json',
+        'Connection': 'keep-alive', // Forces HTTP/1.1
     },
-    body: formData,
+    body: JSON.stringify(formData),
     mode: 'cors', // This is required for cross-origin requests
     keepalive: true // This helps with connection reuse for HTTP/1.1
-  })
+})
     .then(response => {
       return response.json();
     })
