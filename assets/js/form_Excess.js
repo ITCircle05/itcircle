@@ -209,7 +209,7 @@ function submitFormData(obj) {
       formData.append(prop, obj[prop]);
     }
   }
-  return fetch('icirclebackend.free.nf', {
+  return fetch('https://www.itcirclebackend.free.nf/backend/index.php', {
     method: 'POST',
     credentials: 'include',
     headers: {
